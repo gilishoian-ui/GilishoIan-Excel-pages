@@ -1,8 +1,22 @@
-# GilishoIan-Excel-pages
-This repository is where I'll document as I build different things with excel as I go on with my journey through data analysis and data science and a little bit of economics in the process.I'll build four more repos sql,python power bi and a fourth for combined projects . When i get into data science will build more.
-For this first one I downloaded sales data from the year 2022-2026 from kaggle.Logged it into WPS. Removed duplicates.
-Added customer_Agegroup to make it easy to see how the company sold to different agegroup and how profit differed and items sold to different groups of people.
-Added city_proper to make all cities uniform in how the written for uniformity.
-Added a profit_made using the if statement where anything more than 0 was taken as profit and anything else was a loss.
-Build several pivot tables to represent data of sales while also adding slicers for easy data comparisons across various groups of data.
-Build a simple excel dashboard to present the data.
+ # Retail Sales Transactions Analysis (2022 - 2026)
+
+## Project Overview
+This repository documents an end-to-end data analysis project focusing on a retail sales transactions dataset sourced from Kaggle. The goal of this project is to analyze profitability, clean structural anomalies, and evaluate sales performance across different demographic groups.
+
+This is the first project in my data analysis portfolio journey, which will expand to feature dedicated repositories for SQL, Python, Power BI, and multi-tool integrated projects.
+
+## Data Cleaning & Transformation Workflow
+To prepare the dataset for analysis, I performed the following data transformations using WPS Office / Excel:
+
+-De-duplication: Identified and removed duplicate records to ensure data integrity.
+-Geographical Standardization: Standardized the city column (`city_proper`) to ensure uniform naming conventions across all records.
+-Demographic Segmentation:** Engineered a custom `customer_Agegroup` conditional feature to categorize demographics and easily track age-based purchasing behaviors.
+-Profitability Logic: Constructed a calculated profit flag column using a dynamic `IF` statement:
+-Profit: If value is greater than 0 (`> 0`)
+-Loss: If value is less than or equal to 0 (`<= 0`)
+
+## Analytical Approach & Dashboarding
+-Pivot Tables:Built several multi-dimensional pivot tables to compare total sales volume and profitability across diverse consumer demographics.
+-Dynamic Excel Dashboard: Created a centralized performance dashboard utilizing interactive slicers, allowing stakeholders to filter and explore the sales metrics dynamically.
+
+ board-screenshot-filename.png)
