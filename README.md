@@ -19,4 +19,3 @@ To prepare the dataset for analysis, I performed the following data transformati
 -Pivot Tables:Built several multi-dimensional pivot tables to compare total sales volume and profitability across diverse consumer demographics.
 -Dynamic Excel Dashboard: Created a centralized performance dashboard utilizing interactive slicers, allowing stakeholders to filter and explore the sales metrics dynamically.
 
- board-screenshot-filename.png)
